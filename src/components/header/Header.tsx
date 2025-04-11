@@ -1,7 +1,7 @@
 import React from 'react'
 import TopHeader from './TopHeader'
 import MeddleHeader from './MeddleHeader'
-import BottomHeader from './bottomHeader'
+import BottomHeader from './BottomHeader'
 
 const Header = () => {
   return (

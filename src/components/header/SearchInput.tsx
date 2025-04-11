@@ -21,14 +21,14 @@ function SearchInput() {
         <div className="flex items-center gap-2">
           {searchTerm && (
             <IoClose
-              className="cursor-pointer text-gray-500 hover:text-gray-700"
+              className="cursor-pointer text-gray-500 hover:text-red-700  "
               onClick={() => setSearchTerm("")}
               size={18}
               aria-label="Clear search"
             />
           )}
           <div
-            className={`bg-blue-600 text-white p-2 ${
+            className={`bg-blue-600 text-white p-2 transition-all hover:bg-blue-800 ${
               searchTerm ? "rounded-lg" : "rounded-r-lg"
             } cursor-pointer`}
           >
